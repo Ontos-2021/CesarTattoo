@@ -108,7 +108,8 @@
   /* Sobre mi */
   
   .sobre-mi {
-    height: 500px;
+    height: auto; /* Reemplazar height: 500px */
+    min-height: 300px;
     padding: 10px;
   }
   
@@ -125,12 +126,12 @@
   }
   
   .proyectos-recientes img {
-    height: 470px;
+    height: auto; /* Reemplazar height: 470px */
+    max-height: 470px;
     width: 100%;
+    object-fit: cover;
     padding: 10px;
     border-radius: 10px;
-    display: block;
-    transition: all 0.2s ease;
   }
   
   .proyectos-contenedor {
@@ -171,7 +172,9 @@
   }
   
   .carousel-item {
-    height: 500px;
+    height: auto; /* Reemplazar height: 500px */
+    min-height: 300px;
+    padding: 20px 0;
   }
   
   .carousel-item .container {
@@ -238,6 +241,21 @@
   .contacto .descripcion {
     color: white;
     font-size: 1.2rem;
+  }
+
+  .contacto button {
+    padding: 10px 15px;
+    border-radius: 5px;
+    border: none;
+    background-color: rgb(250, 235, 204);
+    color: black;
+    font-weight: bold;
+    transition: all 0.3s ease;
+  }
+  
+  .contacto button:hover {
+    background-color: #1b1b32;
+    color: white;
   }
   
   /* Pie de pagina (footer) */
