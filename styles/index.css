@@ -17,6 +17,10 @@
   --transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 /* Barra de navegacion moderna */
 .navbar {
   padding: 1.2rem 0;
@@ -96,6 +100,7 @@ section {
   justify-content: center;
   width: 100%;
   position: relative;
+  scroll-margin-top: 75px;
 }
 
 h1 {
