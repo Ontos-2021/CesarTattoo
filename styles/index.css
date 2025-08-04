@@ -301,9 +301,9 @@ h2 {
 }
 
 .proyectos-recientes img {
-  height: 300px;
   width: 100%;
-  object-fit: cover;
+  height: auto;
+  object-fit: contain;
   border-radius: var(--border-radius);
   transition: var(--transition);
   filter: grayscale(0.3);
@@ -314,7 +314,7 @@ h2 {
   margin: 0;
   overflow: hidden;
   border-radius: var(--border-radius);
-  height: 300px;
+  height: auto;
   background: var(--bg-light);
   box-shadow: 0 10px 30px var(--shadow-light);
   transition: var(--transition);
@@ -755,11 +755,11 @@ footer {
   
   .proyecto {
     margin-bottom: 20px;
-    height: 250px;
+    height: auto;
   }
 
   .proyectos-recientes img {
-    height: 250px;
+    height: auto;
   }
 }
 
@@ -844,10 +844,10 @@ footer {
   }
 
   .proyecto {
-    height: 200px;
+    height: auto;
   }
 
   .proyectos-recientes img {
-    height: 200px;
+    height: auto;
   }
 }
